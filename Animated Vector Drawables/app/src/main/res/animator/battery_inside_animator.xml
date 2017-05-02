@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="@integer/morphing_time"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:propertyName="pathData"
+        android:valueFrom="@string/path_battery_inside_90"
+        android:valueTo="@string/path_battery_inside_20"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/green"
+        android:valueTo="@color/red" />
+</set>

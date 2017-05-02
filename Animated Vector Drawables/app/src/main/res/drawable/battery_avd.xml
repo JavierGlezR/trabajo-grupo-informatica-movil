@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_battery_full">
+
+    <!--Animate battery-->
+    <target
+        android:name="battery_inside"
+        android:animation="@animator/battery_inside_animator" />
+    <target
+        android:name="battery_outside"
+        android:animation="@animator/battery_outside_animator" />
+
+</animated-vector>
